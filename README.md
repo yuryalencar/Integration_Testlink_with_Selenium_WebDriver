@@ -1,2 +1,2 @@
-# Integration_Testlink_with_Selenium_WebDriver
+# Integration Testlink with Selenium WebDriver
 Integração da ferramenta: TestLink com o Selenium WebDriver
