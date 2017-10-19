@@ -22,6 +22,8 @@
 *  Passo 2: Adicionar duas linhas uma contendo: "$tlCfg->api->enabled = TRUE;" e outra "$tlCfg->exec_cfg->enabled_test_automation = ENABLED;"
 *  Passo 3: Modificar o tipo de execução do Caso de Teste para "Automatizado"
 
-**Configuração do Selenium:**
+**Configuração do Projeto de Testes com o SeleniumWebDriver:**
 *  Criar uma classe de integração que pode deve ser utilizada em todos os testes com a finalidade de fazer o upload dos resultados.
 *  Verificar a utilização de "Assert's" do JUnit, o mal uso pode acarretar problemas no envio de erros.
+
+__Obs.: Um exemplo genérico da configuração do projeto de testes usando o SeleniumWebDriver pode ser encontrado no projeto atual.__
