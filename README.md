@@ -5,7 +5,7 @@
 *  TestLink 1.9.16 (Moka pot)
 *  Selenium WebDriver 3.6.0
 
-**Bibliotecas Necessárias:**
+**Bibliotecas e Pacotes Necessárias:**
 *  ws-commons-util-1.0.2.jar
 *  xmlrpc-client-3.1.jar
 *  xmlrpc-common-3.1.jar
@@ -15,12 +15,12 @@
 
 **Pré-Requisitos:**
 *  Possuir o TestLink instalado.
-*  Possuir o Drive que manipula o navegador escolhido para a execução dos testes. Ex.: chromedriver, geckodriver.
-*  Caminho do driver registrado nas variáveis do sistema.
-*  Importar no Projeto as Bibliotecas Anteriormente Citadas.
+*  Possuir o Driver que manipula o navegador escolhido para a execução dos testes. Ex.: chromedriver(Google Chrome), geckodriver(Mozilla Firefox).
+*  Caminho do driver pré-inseridos nas variáveis do sistema.
+*  Importar no Projeto as Bibliotecas e Pacotes Citados Anteriormente.
 
 **Configuração do TestLink:**
-*  Passo 1: Alterar o arquivo "custom_config.inc.php.example" para "custom_config.inc.php".
+*  Passo 1: Alterar o arquivo "custom\_config.inc.php.example" para "custom_config.inc.php".
 *  Passo 2: Adicionar duas linhas uma contendo: "$tlCfg->api->enabled = TRUE;" e outra "$tlCfg->exec_cfg->enabled_test_automation = ENABLED;".
 *  Passo 3: Modificar o tipo de execução do Caso de Teste para "Automatizado".
 
@@ -29,4 +29,10 @@
 *  Verificar a utilização de "Assert's" do JUnit, o mal uso pode acarretar problemas no envio de erros.
 *  Obs.: Os testes também utilizam dos drivers para a manipulação dos navegadores.
 
-__Obs.: Um exemplo genérico da configuração do projeto de testes usando o SeleniumWebDriver pode ser encontrado no projeto atual.__
+_Obs.: Um exemplo genérico da configuração do projeto de testes usando o SeleniumWebDriver pode ser encontrado no projeto atual. Os códigos referentes à configuração estão presentes em: path\_do\_computador\integration\_testlink\_with\_selenium\_webdriver\ExemploIntegracao\test\org\unipampa\exemplointegracao\br._
+
+**_Autor: Yury Alencar Lima_**
+**_Sobre:_**
+*  _Acadêmico de Engenharia de Software na Universidade Federal do Pampa (UNIPAMPA) - Alegrete-RS_
+*  _Técnico em Eletromecânica pelo SENAI - Minaçu-GO_
+**_Contato: yuryalencar19@gmail.com_**
