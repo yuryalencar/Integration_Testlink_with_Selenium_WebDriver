@@ -31,4 +31,4 @@
 
 _Obs.: Um exemplo genérico da configuração do projeto de testes usando o SeleniumWebDriver pode ser encontrado no projeto atual. Os códigos referentes à configuração estão presentes em: path\_do\_computador\integration\_testlink\_with\_selenium\_webdriver\ExemploIntegracao\test\org\unipampa\exemplointegracao\br._
 
-**_Contato: yuryalencar19@gmail.com_**
+**_Contato: yuryalencar19@gmail.com e julianamareco18@gmail.com_**
